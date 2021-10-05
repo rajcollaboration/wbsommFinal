@@ -1,0 +1,13 @@
+.pcenter{
+    display: flex; justify-content: center;flex-wrap:wrap;order: 3
+  };
+  .m-5{
+      margin: 10px !important;
+  }
+
+  @media (max-width: 800px) {
+    .pcenter {
+      width: 100% !important
+    };
+    
+  }
