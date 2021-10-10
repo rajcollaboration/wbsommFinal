@@ -1,16 +1,16 @@
 import React from 'react'
-import { makeStyles, } from '@mui/styles';
-import ThumbImg from '../assets/images/image5.jpg';
-import Logo from '../assets/images/logoh.png';
-import CssBaseline from '@mui/material/CssBaseline';
-import { Box, Grid, TextField, Paper, Button, Typography } from '@mui/material';
+// import { makeStyles, } from '@mui/styles';
+// import ThumbImg from '../assets/images/image5.jpg';
+// import Logo from '../assets/images/logoh.png';
+// import CssBaseline from '@mui/material/CssBaseline';
+import { Box, Grid, Paper, Button } from '@mui/material';
 
 import Container from '@mui/material/Container';
 import "../style.css";
 import image2 from '../assets/images/image2.jpg'
-import image6 from '../assets/images/image6.jpg'
-import Marquee from "react-easy-marquee";
-import PhotoGalary from '../components/PhotoGalary';
+// import image6 from '../assets/images/image6.jpg'
+// import Marquee from "react-easy-marquee";
+// import PhotoGalary from '../components/PhotoGalary';
 function About() {
     return (
         <div>

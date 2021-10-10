@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '@mui/material/Container';
 import { makeStyles, } from '@mui/styles';
-import { Box, Grid, TextField, Paper, Button, Typography } from '@mui/material';
+import { Box, Grid, TextField, Paper, Button } from '@mui/material';
 import SaveIcon from '@mui/icons-material/Save';
 import axios from 'axios';
 const currencies = [
@@ -191,7 +191,7 @@ function Joinus() {
             const obj = currencies.find(e => e.value === value);
             setBlock(obj.block)
         }
-        if (name == 'district') {
+        if (name === 'district') {
             const Munis = currencies.find(e => e.value === value);
             setMuni(Munis.Municipalaty)
 
@@ -422,7 +422,7 @@ function Joinus() {
 
                                     <div className="pcenter">
                                         <TextField
-                                            onChange={handleDateChange}
+                                            // onChange={handleDateChange}
                                             onChange={HandleInput}
                                             defaultValue={selectedDate}
                                             className={classes.secontInput}
@@ -437,7 +437,7 @@ function Joinus() {
                                         />
 
                                         <TextField
-                                            onChange={handleDateChange}
+                                            // onChange={handleDateChange}
                                             onChange={HandleInput}
                                             defaultValue={selectedDate}
                                             className={classes.secontInput}

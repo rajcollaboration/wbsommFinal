@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link, Switch, Route } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 import Headerright from '../assets/images/Heading-9.png'
-import About from '../pages/About';
-import Joinus from '../pages/Joinus';
-import contact from '../pages/Contact';
-import { BrowserRouter as Router, } from 'react-router-dom';
+// import About from '../pages/About';
+// import Joinus from '../pages/Joinus';
+// import contact from '../pages/Contact';
+// import { BrowserRouter as Router, } from 'react-router-dom';
 import { makeStyles } from '@mui/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { styled, useTheme } from '@mui/material/styles';
