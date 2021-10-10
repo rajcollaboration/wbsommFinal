@@ -51,7 +51,6 @@ const useStyles = makeStyles({
 
 function Index() {
     const classes = useStyles();
-   
     return (
         <div>
             <CssBaseline /> <Grid container spacing={2}>
@@ -118,8 +117,12 @@ function Index() {
                             <Box>
                                 <h2 style={{ textAlign: 'center' }}>দাবি সমূহ</h2>
                             </Box>
-                            <Paper elevation={3} spacing={1} style={{ marginLeft: '10px' }}>
-                                <Marquee
+                            <Paper 
+                            elevation={3} 
+                            spacing={1} 
+                            style={{ marginLeft: '10px',paddingRight:'15px' }}>
+
+                            <Marquee
                                     style={{ marginRight: '10px' }}
                                     duration={10000}
                                     height="500px"
@@ -127,7 +130,7 @@ function Index() {
                                     axis="y"
                                     align="center"
                                     pauseOnHover={true}
-                                    reverse={false}>
+                                    reverse={true}>
                                     <ul style={{ whiteSpace: 'normal' }}>
                                         <li style={{ listStyle: 'none', textAlign: 'justify', textJustify: 'inter-word', marginBottom: '4px' }}>
                                             ১। পৌরসভার অর্ন্তগত সমস্ত এস এস কে এম.এস.কে সমূহকে শিক্ষা দপ্তরের অর্ন্তরভূক্ত

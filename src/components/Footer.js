@@ -63,7 +63,7 @@ function Footer() {
                                 Mobile: 9382120884/9641154011
                                 </p>
                                 <p className={classes.textustify}>
-                                Mobile: E-mail:sommkaikhali@gmail.com
+                                E-mail:sommkaikhali@gmail.com
                                 </p>
                             </Item>
 

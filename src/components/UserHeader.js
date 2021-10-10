@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
+import Headerright from '../assets/images/Heading-9.png'
 import About from '../pages/About';
 import Joinus from '../pages/Joinus';
 import contact from '../pages/Contact';
@@ -40,12 +41,12 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     right: '0px',
     top: '0px',
-    backgroundColor: 'red',
+    
     padding: '8px 8px 8px 38px !important'
   },
   headerBorder: {
     top: '4px',
-    right: '301px',
+    right: '333px',
     width: '95px',
     height: '91px',
     zIndex: '-2',
@@ -193,12 +194,7 @@ function UserHeader() {
           </Toolbar>
 
           <Typography component="div" className={classes.headerW}>
-            <h3>
-              West Bengal Yokko Mukto Manch
-            </h3>
-            <Typography component='div' className={classes.headerBorder}>
-
-            </Typography>
+            <img src={Headerright} alt='header right'/>
           </Typography>
         </AppBar>
         <Drawer
