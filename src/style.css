@@ -11,3 +11,8 @@
     };
     
   }
+  @media (max-width:420px) {
+    .headeri{
+      display: none;
+    }
+  }

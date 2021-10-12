@@ -32,7 +32,7 @@ const useStyles = makeStyles({
         cursor: "pointer",
     },
     fixedSidebar: {
-        position: 'sticky',
+        position: 'static',
         top: '0',
 
     },
@@ -56,11 +56,11 @@ function Index() {
             <CssBaseline /> <Grid container spacing={2}>
                 {/* header Bottom Image */}
                 <Grid item xs={12}>
-                    <Box className={classes.mainOverLay} style={{height:'100vh',overflow:'hidden'}}>
+                    <Box className={classes.mainOverLay} style={{height:'auto',overflow:'hidden'}}>
                         <div className={classes.overlay}>
-                            <Typography className="pcenter" style={{ marginTop: '25px' }}>
-                                <img src={Logo} alt="logo" />
-                            </Typography>
+                            <div className="pcenter"  style={{ marginTop: '25px' }}>
+                                
+                            </div>
                             <h1 style={{ color: '#fff', textAlign: 'center' }}>West Bengal Yokko Mukto Manch</h1>
                             <h5 style={{ color: '#fff', textAlign: 'center' }}>Reg-No:- S0001176 of 2018-19</h5>
                         </div>
