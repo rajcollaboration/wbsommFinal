@@ -90,7 +90,7 @@ function Footer() {
                         </Grid>
                         <Grid item sm={12}>
                             <h6>
-                            Copyright © {new Date().getFullYear()} Kaikhali Shikshak Oikya O kalyan Samiti || Developed by <a href="">Washim Reja khan</a>
+                            Copyright © {new Date().getFullYear()} Kaikhali Shikshak Oikya O kalyan Samiti || Developed by <p>Washim Reja khan</p>
                             </h6>
                         </Grid>
                     </Grid>

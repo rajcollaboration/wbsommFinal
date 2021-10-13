@@ -161,7 +161,7 @@ const useStyles = makeStyles({
 function Joinus() {
     const classes = useStyles();
 
-    const [selectedDate, setSelectedDate] = React.useState(new Date('2014-08-18T21:11:54'));
+    const [selectedDate] = React.useState(new Date('2014-08-18T21:11:54'));
 
     const [userRecords, setuserRecords] = React.useState({
         SchoolName: "",
@@ -179,9 +179,9 @@ function Joinus() {
     })
     const [block, setBlock] = React.useState([]);
     const [muni, setMuni] = React.useState([]);
-    const handleDateChange = (date) => {
-        setSelectedDate(date);
-    };
+    // const handleDateChange = (date) => {
+    //     setSelectedDate(date);
+    // };
     const HandleInput = (e) => {
         const name = e.target.name;
         const value = e.target.value;
